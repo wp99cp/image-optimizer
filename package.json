@@ -1,0 +1,21 @@
+{
+  "name": "image-optimizer",
+  "version": "1.1.0",
+  "description": "Automatische Bildbearbeitung für die Webseite des Cevi Züri 11",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "author": "Cyrill Püntener v/o JPG",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "flat-map": "^1.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-image": "^5.1.0",
+    "gulp-scale-images": "^1.2.2",
+    "node": "^12.10.0"
+  }
+}

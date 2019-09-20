@@ -1,0 +1,20 @@
+{
+    "inputTypes": [
+        "gif",
+        "png",
+        "jpg",
+        "jpeg"
+    ],
+    "outputType": "jpg",
+    "squareSizes": [
+        420,
+        300,
+        240
+    ],
+    "portraitSizes": [
+        1200,
+        1125,
+        760,
+        450
+    ]
+}
