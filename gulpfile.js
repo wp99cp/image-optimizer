@@ -37,17 +37,21 @@ var processSizes = (image, cb) => {
 
     let images = [];
 
-    for (let squareSize of options.squareSizes) {
+    console.log(options.sizes)
 
-        let imageClone = image.clone()
-        imageClone.scale = {
-            maxWidth: squareSize,
-            format: options.outputType
+    for (let sizeList of options.sizes)
+
+        for (let size of options[sizeList]) {
+
+            let imageClone = image.clone()
+            imageClone.scale = {
+                maxWidth: size,
+                format: options.outputType
+            }
+
+            images.push(imageClone);
+
         }
-
-        images.push(imageClone);
-
-    }
 
 
     cb(null, images);

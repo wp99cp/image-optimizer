@@ -6,12 +6,15 @@
         "jpeg"
     ],
     "outputType": "jpg",
-    "squareSizes": [
+    "sizes": [
+        "webSizes"
+    ],
+    "portraitSizes": [
         420,
         300,
         240
     ],
-    "portraitSizes": [
+    "webSizes": [
         1200,
         1125,
         760,
