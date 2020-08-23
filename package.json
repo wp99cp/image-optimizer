@@ -11,11 +11,21 @@
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
+    "cross-spawn": "^7.0.3",
     "flat-map": "^1.0.0",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
-    "gulp-image": "^5.1.0",
-    "gulp-scale-images": "^1.2.2",
-    "node": "^12.10.0"
-  }
+    "gulp-image": "^6.2.1",
+    "gulp-scale-images": "^2.1.1",
+    "node": "^12.10.0",
+    "sharp": "^0.25.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wp99cp/image-optimizer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wp99cp/image-optimizer/issues"
+  },
+  "homepage": "https://github.com/wp99cp/image-optimizer#readme"
 }

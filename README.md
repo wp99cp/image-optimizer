@@ -1,8 +1,10 @@
 # Image Optimizer
  Optimize and scale images automatically for web usage.
 
- You can define the input types, set the output type and add an array of file sizes in the option.json.
+In the ``options.js`` file, you can define the input types (.jpg, .png ...), set the output type and add an array of file sizes to be created.
 
- The GULP process launches with a click on start.bat (on windows).
- 
- Please make sure that you have installed ```node.js``` and all the necessary packages with ```npm i``` first.
+Please make sure that you have installed ```node.js``` at Version `` 12.10.0``  (newer versions are not supported by the sharp module) and all the necessary packages with ```npm i``` first.
+
+
+
+To start the process type ``gulp default`` into the console.

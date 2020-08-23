@@ -1,5 +1,5 @@
 # ignore all documents
-/*
+/*.*
 
 # don't ignore this file
 !.gitignore
