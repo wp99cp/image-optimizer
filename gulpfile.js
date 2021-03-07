@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var rename = require('gulp-rename');
 
 // user options such as image size
 var options = require('./options.json');
@@ -74,6 +75,11 @@ gulp.task('process', async function () {
         .pipe(flatMap(processSizes))
         .pipe(scaleImages())
         .pipe(image())
+	//Remove Space
+    	.pipe(rename(function(opt) {
+      		opt.basename = opt.basename.split(' ').join('_');
+      		return opt;
+    	}))
         .pipe(gulp.dest(OUTPUT_DIRECTORY));
 
 });
