@@ -7,7 +7,8 @@
     ],
     "outputType": "jpg",
     "sizes": [
-        "gallery_zh11_max_res"
+        "gallery_zh11_max_res",
+        "portraitSizes"
     ],
     "portraitSizes": [
         420,
