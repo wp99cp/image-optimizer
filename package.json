@@ -1,6 +1,6 @@
 {
   "name": "image-optimizer",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Automatische Bildbearbeitung für die Webseite des Cevi Züri 11",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,6 @@
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
-    "cross-spawn": "^7.0.3",
-    "del": "^6.0.0",
     "flat-map": "^1.0.0",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
@@ -21,10 +19,7 @@
     "gulp-scale-images": "^2.1.1",
     "gulp-tap": "^2.0.0",
     "heic-convert": "^1.2.4",
-    "heic-decode": "^1.1.2",
-    "heic-to-jpeg-middleware": "^2.0.0",
-    "node": "^12.10.0",
-    "sharp": "^0.25.4"
+    "inquirer": "^8.0.0"
   },
   "repository": {
     "type": "git",
