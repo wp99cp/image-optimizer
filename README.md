@@ -1,10 +1,15 @@
-# Image Optimizer
- Optimize and scale images automatically for web usage.
+_Version 2.0.0_
 
-In the ``options.js`` file, you can define the input types (.jpg, .png ...), set the output type and add an array of file sizes to be created.
+# Basic Commandline Image Optimizer
 
-Please make sure that you have installed ```node.js``` at Version `` 12.10.0``  (newer versions are not supported by the sharp module) and all the necessary packages with ```npm i``` first.
+This is a simple command-line based image optimizer running on Node.js. It monitors file changes in the input (```./input/```) directory, converts them to the selected sizes and file types, and put them in an output (```./output```) directory.
 
+## Use-Case
+This tool is optimal to create file-size optimized images for web applications. In one run, it can create form a single image all the necessary output formats and sizes.
 
+## Start Optimizer
+1) To start the optimizer, install all the dependencies with
+```npm install```
 
-To start the process type ``gulp default`` into the console.
+2) Then start the script with 
+```gulp default```
